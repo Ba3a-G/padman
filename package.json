@@ -1,0 +1,49 @@
+{
+  "name": "padman",
+  "version": "1.0.0",
+  "description": "A utility for normalizing numeric prefixes in filenames by padding zeroes",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "padman": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepareToPublish": "npm run clean && npm run build",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "rename",
+    "sort",
+    "directory",
+    "cli",
+    "pad zeroes",
+    "sort files"
+  ],
+  "author": "Aryan Kumar <mail@ba3a.tech>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ba3a-g/padman"
+  },
+  "homepage": "https://github.com/ba3a-g/padman",
+  "license": "ISC",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.16"
+  },
+  "dependencies": {
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.15.24",
+    "typescript": "^5.8.3"
+  }
+}
