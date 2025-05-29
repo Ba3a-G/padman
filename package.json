@@ -1,6 +1,6 @@
 {
   "name": "padman",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility for normalizing numeric prefixes in filenames by padding zeroes",
   "main": "dist/index.js",
   "module": "dist/index.js",
