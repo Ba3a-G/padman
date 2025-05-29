@@ -25,10 +25,9 @@
   ],
   "author": "Aryan Kumar <mail@ba3a.tech>",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/ba3a-g/padman"
+    "url": "https://github.com/Ba3a-G/padman"
   },
-  "homepage": "https://github.com/ba3a-g/padman",
+  "homepage": "https://github.com/Ba3a-G/padman",
   "license": "ISC",
   "files": [
     "dist",
